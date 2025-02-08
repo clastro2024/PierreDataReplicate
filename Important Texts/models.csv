@@ -1,0 +1,928 @@
+id,name,model
+214,Account,account.account
+168,Analytic Account,account.analytic.account
+1893,Applicant,hr.applicant
+448,Approval Request,approval.request
+1868,Article Discussion Thread,knowledge.article.thread
+300,Asset/Revenue Recognition,account.asset
+762,Attendance,hr.attendance
+81,Bank Accounts,res.partner.bank
+1193,Bank Connection,account.online.link
+1693,Base class to extract data from documents,extract.mixin
+704,Batch Payment,account.batch.payment
+398,Batch Transfer,stock.picking.batch
+577,Bill of Material,mrp.bom
+401,Budget,crossovered.budget
+606,Calendar Event,calendar.event
+87,Companies,res.company
+550,Consolidation Period,consolidation.period
+78,Contact,res.partner
+441,Department,hr.department
+155,Discussion Channel,discuss.channel
+720,Document,documents.document
+723,Documents Share,documents.share
+149,Email CC management,mail.thread.cc
+148,Email Thread,mail.thread
+438,Employee,hr.employee
+607,Employee Contract,hr.contract
+1939,Expense,hr.expense
+1940,Expense Report,hr.expense.sheet
+562,Gamification Badge,gamification.badge
+559,Gamification Challenge,gamification.challenge
+769,Helpdesk Team,helpdesk.team
+768,Helpdesk Ticket,helpdesk.ticket
+442,Job Position,hr.job
+218,Journal,account.journal
+233,Journal Entry,account.move
+1872,Knowledge Article,knowledge.article
+707,Lead/Opportunity,crm.lead
+319,Lot/Serial,stock.lot
+151,Mail Blacklist,mail.blacklist
+152,Mail Blacklist mixin,mail.thread.blacklist
+1641,Mail Main Attachment management,mail.thread.main.attachment
+1950,Mailing Contact,mailing.contact
+1954,Mass Mailing,mailing.mailing
+623,Pay Slip,hr.payslip
+224,Payments,account.payment
+628,Payslip Batches,hr.payslip.run
+173,Phone Blacklist,phone.blacklist
+175,Phone Blacklist Mixin,mail.thread.phone
+222,Preset to create journal entries during a invoices and payments matching,account.reconcile.model
+186,Pricelist,product.pricelist
+176,Product,product.template
+178,Product Variant,product.product
+586,Production Order,mrp.production
+690,Project,project.project
+1333,Project Milestone,project.milestone
+1336,Project Update,project.update
+382,Purchase Order,purchase.order
+434,Purchase Requisition,purchase.requisition
+2005,Quality Alert,quality.alert
+2000,Quality Alert Team,quality.alert.team
+2004,Quality Check,quality.check
+1999,Quality Control Point,quality.point
+688,Rating Mixin,rating.mixin
+1385,Salary Attachment,hr.salary.attachment
+387,Sales Order,sale.order
+364,Sales Team,crm.team
+1275,Sales Team Member,crm.team.member
+328,Scrap,stock.scrap
+730,Signature Request,sign.request
+1910,Social Media,social.media
+1913,Social Post,social.post
+404,Stock Landed Cost,stock.landed.cost
+566,Survey,survey.survey
+569,Survey User Input,survey.user_input
+691,Task,project.task
+220,Tax,account.tax
+608,Time Off,hr.leave
+609,Time Off Allocation,hr.leave.allocation
+674,Tracking Sheet,x_tracking_sheet
+321,Transfer,stock.picking
+587,Unbuild Order,mrp.unbuild
+1854,WhatsApp Business Account,whatsapp.account
+1856,WhatsApp Template,whatsapp.template
+682,Year Closing,x_year_closing
+1181,2-Factor Setup Wizard,auth_totp.wizard
+726,A set of condition and actions which will be available to all attachments matching the conditions,documents.workflow.rule
+1538,A-NZ BIS Billing 3.0,account.edi.xml.ubl_a_nz
+848,API Key Description,res.users.apikeys.description
+2041,AVS / LAA / LAAC / IJM Yearly Report,ch.yearly.report
+88,Access Groups,res.groups
+246,Account Cash Rounding,account.cash.rounding
+1789,Account Chart Template,account.chart.template
+215,Account Group,account.group
+217,Account Journal Group,account.journal.group
+253,Account Move Reversal,account.move.reversal
+1792,Account Move Send,account.move.send
+1543,Account Report Custom Handler,account.report.custom.handler
+283,Account Report Footnote,account.report.footnote
+1820,Account Report Handler for Tax Reports,account.tax.report.handler
+212,Account Tag,account.account.tag
+280,Account Transfer Model,account.transfer.model
+281,Account Transfer Model Line,account.transfer.model.line
+250,Account Unreconcile,account.unreconcile
+1798,Account automatic reconciliation wizard,account.auto.reconcile.wizard
+216,Account codes first 2 digits,account.root
+1799,Account reconciliation wizard,account.reconcile.wizard
+262,Account report with payment lines,report.account.report_invoice_with_payments
+1010,Account report without payment lines,report.account.report_invoice
+1007,Account tour upload bill,account.tour.upload.bill
+1008,Account tour upload bill email confirm,account.tour.upload.bill.email.confirm
+284,Accounting Report,account.report
+1506,Accounting Report Column,account.report.column
+1505,Accounting Report Expression,account.report.expression
+1507,Accounting Report External Value,account.report.external.value
+1504,Accounting Report Line,account.report.line
+210,Accounts Mapping of Fiscal Position,account.fiscal.position.account
+1285,Accrual Plan,hr.leave.accrual.plan
+1284,Accrual Plan Level,hr.leave.accrual.level
+1327,Accrued Orders Wizard,account.accrued.orders.wizard
+21,Action URL,ir.actions.act_url
+18,Action Window,ir.actions.act_window
+20,Action Window Close,ir.actions.act_window_close
+19,Action Window View,ir.actions.act_window.view
+17,Actions,ir.actions.actions
+145,Activity,mail.activity
+146,Activity Mixin,mail.activity.mixin
+1644,Activity Plan,mail.activity.plan
+144,Activity Type,mail.activity.type
+1645,Activity plan template,mail.activity.plan.template
+1665,Activity schedule plan Wizard,mail.activity.schedule
+1960,Add Contacts to Mailing List,mailing.contact.to.list
+1367,Add tag for the workcenter,mrp.workcenter.tag
+75,Address Format,format.address.mixin
+1553,Aged Partner Balance Custom Handler,account.aged.partner.balance.report.handler
+1554,Aged Payable Custom Handler,account.aged.payable.report.handler
+1555,Aged Receivable Custom Handler,account.aged.receivable.report.handler
+373,All Website Route,website.route
+1449,Analytic Distribution Model,account.analytic.distribution.model
+169,Analytic Line,account.analytic.line
+1448,Analytic Mixin,analytic.mixin
+1446,Analytic Plan's Applicabilities,account.analytic.applicability
+167,Analytic Plans,account.analytic.plan
+1896,Applicant Degree,hr.recruitment.degree
+61,Application,ir.module.category
+447,Approval Category,approval.category
+1277,Approval Type Approver,approval.category.approver
+449,Approver,approval.approver
+1870,Article Member,knowledge.article.member
+1871,Article Template Category,knowledge.article.template.category
+1213,Asset,ir.asset
+1565,Assets Report Custom Handler,account.asset.report.handler
+122,Assets Utils,web_editor.assets
+27,Attachment,ir.attachment
+1278,Attendance Overtime,hr.attendance.overtime
+182,Attribute Value,product.attribute.value
+1235,Authentication Device,auth_totp.device
+36,Automatic Vacuum,ir.autovacuum
+979,Automatic sequence,sequence.mixin
+361,Automation Rule,base.automation
+1227,Avatar Mixin,avatar.mixin
+1535,BIS3 DE (XRechnung),account.edi.xml.ubl_de
+594,BOM Overview Report,report.mrp.report_bom_structure
+339,Backorder Confirmation,stock.backorder.confirmation
+1071,Backorder Confirmation Line,stock.backorder.confirmation.line
+1105,Backorder Confirmation Line,mrp.production.backorder.line
+80,Bank,res.bank
+1818,Bank Reconciliation Report Custom Handler,account.bank.reconciliation.report.handler
+231,Bank Statement,account.bank.statement
+232,Bank Statement Line,account.bank.statement.line
+1519,Bank reconciliation widget for a single statement line,bank.rec.widget
+258,Bank setup manual config,account.setup.bank.manual.config
+310,Barcode Event Mixin,barcodes.barcode_events_mixin
+308,Barcode Nomenclature,barcode.nomenclature
+309,Barcode Rule,barcode.rule
+1,Base,base
+106,Base Import,base_import.import
+105,Base Import Mapping,base_import.mapping
+437,Basic Employee,hr.employee.base
+705,Batch Deposit Report,report.account_batch_payment.print_batch_payment
+399,Batch Transfer Lines,stock.picking.to.batch
+1130,Batch payments error reporting wizard,account.batch.error.wizard
+1131,Batch payments error reporting wizard line,account.batch.error.wizard.line
+578,Bill of Material Line,mrp.bom.line
+773,Board,board.board
+402,Budget Line,crossovered.budget.lines
+400,Budgetary Position,account.budget.post
+1340,Burndown Chart,project.task.burndown.chart.report
+579,Byproduct,mrp.bom.byproduct
+713,CRM Activity Analysis,crm.activity.report
+1196,CRM IAP Lead Industry,crm.iap.lead.industry
+1200,CRM Lead Mining Request,crm.iap.lead.mining.request
+1992,CRM Partnership Analysis,crm.partner.report.assign
+1017,CRM Recurring revenue plans,crm.recurring.plan
+708,CRM Stages,crm.stage
+709,CRM Tag,crm.tag
+602,Calendar Attendee Information,calendar.attendee
+601,Calendar Filters,calendar.filters
+1775,Calendar Popover Delete Wizard,calendar.popover.delete.wizard
+1451,Calendar Provider Configuration Wizard,calendar.provider.config
+358,Campaign Stage,utm.stage
+1936,Cancel Operation,stock_barcode.cancel.operation
+1464,Cancel Time Off Wizard,hr.holidays.cancel.leave
+1840,Cancel multiple quotations,sale.mass.cancel.orders
+157,Canned Response / Shortcode,mail.shortcode
+1550,Cash Flow Report Custom Handler,account.cash.flow.report.handler
+724,Category,documents.facet
+1894,Category of applicant,hr.applicant.category
+2034,Change Employee Language,l10n_ch.hr.payroll.employee.lang.wizard
+2035,Change Employee Language Line,l10n_ch.hr.payroll.employee.lang.wizard.line
+266,Change Lock Date,account.change.lock.date
+91,Change Password Wizard,change.password.wizard
+336,Change Product Quantity,stock.change.product.qty
+592,Change Production Qty,change.production.qty
+153,Channel Member,discuss.channel.member
+1924,Chatbot Message,chatbot.message
+1925,Chatbot Script,chatbot.script
+1926,Chatbot Script Answer,chatbot.script.answer
+1927,Chatbot Script Step,chatbot.script.step
+1585,Choose the sheet layout to print lot labels,lot.label.layout
+1274,Choose the sheet layout to print the labels,product.label.layout
+1584,Choose whether to print product or lot/sn labels,picking.label.type
+1886,Cleaning Model,data_cleaning.model
+1888,Cleaning Record,data_cleaning.record
+1887,Cleaning Rule,data_cleaning.rule
+25,Client Action,ir.actions.client
+1361,Collaborative spreadsheet revision,spreadsheet.revision
+1338,Collaborators in project shared,project.collaborator
+1530,"Common functions for EDI documents: generate the data, the constraints, etc",account.edi.common
+128,Communication Bus,bus.bus
+104,Company Document Layout,base.document.layout
+60,Company Property,ir.property
+82,Config,res.config
+83,Config Installer,res.config.installer
+84,Config Settings,res.config.settings
+24,Configuration Wizards,ir.actions.todo
+351,Confirm Stock SMS,confirm.stock.sms
+1349,Conflict in Inventory,stock.inventory.conflict
+552,Consolidation Company Period,consolidation.company_period
+549,Consolidation Group,consolidation.group
+553,Consolidation Journal,consolidation.journal
+551,Consolidation Period Composition,consolidation.period.composition
+555,Consolidation Rate,consolidation.rate
+548,Consolidation account,consolidation.account
+547,Consolidation chart,consolidation.chart
+554,Consolidation journal line,consolidation.journal.line
+1281,Contract Type,hr.contract.type
+617,Contract and Employee Analysis Report,hr.contract.employee.report
+1282,Contract history,hr.contract.history
+1579,Convert Helpdesk Tickets to Tasks,helpdesk.ticket.convert.wizard
+717,Convert Lead to Opportunity (in mass),crm.lead2opportunity.partner.mass
+716,Convert Lead to Opportunity (not in mass),crm.lead2opportunity.partner
+1580,Convert Project Tasks to Tickets,project.task.convert.wizard
+1922,Convert Social Post to Lead,social.post.to.lead
+1721,Copy of a shared dashboard,spreadsheet.dashboard.share
+1757,Copy of a shared spreadsheet,documents.shared.spreadsheet
+71,Country,res.country
+72,Country Group,res.country.group
+73,Country state,res.country.state
+1077,Cover Properties Website Mixin,website.cover_properties.mixin
+1005,Create Automatic Entries,account.automatic.entry.wizard
+699,Create Invoice from project,project.create.invoice
+10,Create Menu Wizard,wizard.ir.model.menu.create
+698,Create SO Line from project,project.create.sale.order.line
+697,Create SO from project,project.create.sale.order
+701,Create Timesheet from task,project.task.create.timesheet
+1596,Create a dashboard from a spreadsheet document,spreadsheet.document.to.dashboard
+1763,Create activity and todo at the same time,mail.activity.todo.create
+719,Create new or use existing Customer on new Quotation,crm.quotation.partner
+1657,Cron data used for web push notification,mail.notification.web.push
+85,Currency,res.currency
+86,Currency Rate,res.currency.rate
+2056,Custom Update Product,custom.update.product
+14,Custom View,ir.ui.view.custom
+93,Decimal Precision,decimal.precision
+1891,Deduplication Group,data_merge.group
+1889,Deduplication Model,data_merge.model
+1892,Deduplication Record,data_merge.record
+1890,Deduplication Rule,data_merge.rule
+30,Default Values,ir.default
+1827,Deferred Expense Custom Handler,account.deferred.expense.report.handler
+1826,Deferred Expense Report Custom Handler,account.deferred.report.handler
+1828,Deferred Revenue Custom Handler,account.deferred.revenue.report.handler
+2071,Delivered Duty Paid,delivered.duty.paid
+454,Delivery Carrier Selection Wizard,choose.delivery.carrier
+453,Delivery Package Selection Wizard,choose.delivery.package
+452,Delivery Price Rules,delivery.price.rule
+1595,Delivery Zip Prefix,delivery.zip.prefix
+65,Demo,ir.demo
+67,Demo Failure wizard,ir.demo_failure.wizard
+66,Demo failure,ir.demo_failure
+1266,Departure Reason,hr.departure.reason
+446,Departure Wizard,hr.departure.wizard
+206,Digest,digest.digest
+207,Digest Tips,digest.tip
+1842,Discount Wizard,sale.order.discount
+141,Document Followers,mail.followers
+728,Document Request,documents.request_wizard
+727,Document Workflow Tag Action,documents.workflow.action
+1330,Documents Link to Record,documents.link_to_record_wizard
+722,Documents Workspace,documents.folder
+721,Documents creation mixin,documents.mixin
+1882,E-Commerce Extra Info Shown on product page,website.sale.extra.field
+1537,E-FFF (BE),account.edi.xml.ubl_efff
+1557,EC Sales Report Custom Handler,account.ec.sales.report.handler
+1091,EDI format,account.edi.format
+1191,Edit payslip line wizard worked days,hr.payroll.edit.payslip.worked.days.line
+1189,Edit payslip lines wizard,hr.payroll.edit.payslip.lines.wizard
+1190,Edit payslip lines wizard line,hr.payroll.edit.payslip.line
+1092,Electronic Document for an account.move,account.edi.document
+139,Email Aliases,mail.alias
+140,Email Aliases Mixin,mail.alias.mixin
+1638,Email Aliases Mixin (light),mail.alias.mixin.optional
+1637,Email Domain,mail.alias.domain
+886,Email Template Preview,mail.template.preview
+156,Email Templates,mail.template
+160,Email composition wizard,mail.compose.message
+162,Email resend wizard,mail.resend.message
+439,Employee Category,hr.employee.category
+2015,Employee Children,l10n.ch.hr.employee.children
+1758,Employee Delete Wizard,hr.employee.delete.wizard
+1876,Employee Location,hr.employee.location
+1226,Enable profiling for some time,base.enable.profiling.wizard
+604,Event Alarm,calendar.alarm
+603,Event Alarm Manager,calendar.alarm_manager
+605,Event Meeting Type,calendar.event.type
+895,Event Recurrence Rule,calendar.recurrence
+1942,Expense Approve Duplicate,hr.expense.approve.duplicate
+1941,Expense Refuse Reason Wizard,hr.expense.refuse.wizard
+1944,Expense Split,hr.expense.split
+1943,Expense Split Wizard,hr.expense.split.wizard
+299,Export format for accounting's reports,account_reports.export.wizard.format
+298,Export wizard for accounting's reports,account_reports.export.wizard
+32,Exports,ir.exports
+33,Exports Line,ir.exports.line
+597,External Inventory Sync,x_external_inv_sync
+269,Extracted words from invoice scan,account.invoice_extract.words
+1531,Factur-x/XRechnung CII 2.2.0,account.edi.xml.cii
+1869,Favorite Article,knowledge.article.favorite
+1938,Fetch product images from Google Images based on the product's barcode number.,product.fetch.image.wizard
+1670,Field html History,html.field.history.mixin
+4,Fields,ir.model.fields
+38,Fields Converter,ir.fields.converter
+5,Fields Selection,ir.model.fields.selection
+712,Fields that can be used for predictive lead scoring computation,crm.lead.scoring.frequency.field
+736,Fields to be sign on Document,sign.item
+1397,File streaming helper model for controllers,ir.binary
+29,Filters,ir.filters
+208,Fiscal Position,account.fiscal.position
+245,Fiscal Year,account.fiscal.year
+305,Follow-up Criteria,account_followup.followup.line
+306,Follow-up Report,account.followup.report
+1847,Followup missing information wizard,account_followup.missing.information.wizard
+192,Format Error Sending a Snailmail Letter,snailmail.letter.format.error
+236,Full Reconcile,account.full.reconcile
+558,Gamification Goal,gamification.goal
+557,Gamification Goal Definition,gamification.goal.definition
+564,Gamification Goal Wizard,gamification.goal.wizard
+561,Gamification User Badge,gamification.badge.user
+565,Gamification User Badge Wizard,gamification.badge.user.wizard
+560,Gamification generic goal for challenge,gamification.challenge.line
+1545,General Ledger Custom Handler,account.general.ledger.report.handler
+279,Generate Sales Payment Link,payment.link.wizard
+632,Generate payslips for all selected employees,hr.payslip.employees
+1546,Generic Tax Report Custom Handler,account.generic.tax.report.handler
+1547,Generic Tax Report Custom Handler (Account -> Tax),account.generic.tax.report.handler.account.tax
+1548,Generic Tax Report Custom Handler (Tax -> Account),account.generic.tax.report.handler.tax.account
+753,Geo Coder,base.geocoder
+752,Geo Provider,base.geo_provider
+714,Get Lost Reason,crm.lead.lost
+1901,Get Refuse Reason,applicant.get.refuse.reason
+265,Get hash integrity result as PDF.,report.account.report_hash_integrity
+196,Grant Portal Access,portal.wizard
+1477,Green Savings Report model,report.sign.green_savings_report
+1577,Group of dashboards,spreadsheet.dashboard.group
+1247,Guest,mail.guest
+613,HR Time Off Summary Report By Employee,hr.holidays.summary.employee
+614,HR Work Entry,hr.work.entry
+615,HR Work Entry Type,hr.work.entry.type
+2073,HSCode Rule Line,hscode.rule.line
+2072,HScode Country Rules,hscode.country.rules
+58,HTTP Routing,ir.http
+1559,Handles problems occurring while creating multiple QR-invoices at once,l10n_ch.qr_invoice.wizard
+771,Helpdesk SLA Policies,helpdesk.sla
+770,Helpdesk Stage,helpdesk.stage
+1510,Helpdesk Stage Delete Wizard,helpdesk.stage.delete.wizard
+765,Helpdesk Tags,helpdesk.tag
+766,Helpdesk Ticket Type,helpdesk.ticket.type
+1199,Helper methods for crm_iap_mine modules,crm.iap.lead.helpers
+611,Holidays Summary Report,report.hr_holidays.report_holidayssummary
+1541,Horizontal group for reports,account.report.horizontal.group
+1542,Horizontal group rule for reports,account.report.horizontal.group.rule
+136,IAP Account,iap.account
+1635,IAP Account Info,iap.account.info
+764,IAP Lead Enrichment API,iap.enrich.api
+1287,IAP Partner Autocomplete API,iap.autocomplete.api
+1248,ICE server,mail.ice.server
+2036,IS Entry / Withdrawals / Mutations,hr.employee.is.line
+2037,IS Log lines,hr.payslip.is.log.line
+70,Image Mixin,image.mixin
+354,Import Module,base.import.module
+2074,Import Sale Order Line,sale.order.line.import
+170,Incoming Mail Server,fetchmail.server
+248,Incoterms,account.incoterms
+633,Index contracts,hr.payroll.index
+79,Industry,res.partner.industry
+96,Install Language,base.language.install
+2042,Insurance Reports,ch.yearly.report.line
+1351,Inventory Adjustment Reference / Reason,stock.inventory.adjustment.name
+1350,Inventory Adjustment Warning,stock.inventory.warning
+315,Inventory Locations,stock.location
+316,Inventory Routes,stock.route
+159,Invite wizard,mail.wizard.invite
+261,Invoices Statistics,account.invoice.report
+2062,Journal Entry Fix,fix.journal.entries
+2061,Journal Error Records,journal.error.records
+234,Journal Item,account.move.line
+1549,Journal Report Custom Handler,account.journal.report.handler
+729,Journal and Folder settings,documents.account.folder.setting
+1874,Knowledge Cover,knowledge.cover
+1875,Knowledge Invite Wizard,knowledge.invite
+1873,Knowledge Stage,knowledge.article.stage
+2069,Landed Cost Budget,landed.cost.budget
+2070,Landed Cost Budget,customs.rate.calculation
+100,Language Export,base.language.export
+97,Language Import,base.language.import
+74,Languages,res.lang
+1994,Lead Assignation,crm.lead.assignation
+711,Lead Scoring Frequency,crm.lead.scoring.frequency
+1993,Lead forward to partner,crm.lead.forward.to.partner
+1108,Line of issue consumption,mrp.consumption.warning.line
+1520,Line of the bank reconciliation widget,bank.rec.widget.line
+1699,Link SMS to mailing/sms tracking models,sms.tracker
+1907,Link Tracker,link.tracker
+1909,Link Tracker Click,link.tracker.click
+1908,Link Tracker Code,link.tracker.code
+1814,Link a bank account to the selected journal,account.bank.selection
+1930,Livechat Channel,im_livechat.channel
+1931,Livechat Channel Rules,im_livechat.channel.rule
+1933,Livechat Support Channel Report,im_livechat.report.channel
+1934,Livechat Support Operator Report,im_livechat.report.operator
+59,Logging,ir.logging
+1348,Lot Label Report,report.stock.label_lot_template_view
+1762,MO Overview Report,report.mrp.report_mo_overview
+595,MRP Cost Structure Report,report.mrp_account_enterprise.mrp_cost_structure
+583,MRP Workorder productivity losses,mrp.workcenter.productivity.loss.type
+171,Mail Bot,mail.bot
+1241,Mail Composer Mixin,mail.composer.mixin
+1425,Mail Gateway Allowed,mail.gateway.allowed
+1246,Mail RTC session,discuss.channel.rtc.session
+869,Mail Render Mixin,mail.render.mixin
+37,Mail Server,ir.mail_server
+1438,Mail Template Reset,mail.template.reset
+138,Mail Tracking Value,mail.tracking.value
+1959,Mailing Contact Import,mailing.contact.import
+1955,Mailing Favorite Filters,mailing.filter
+1951,Mailing List,mailing.list
+1949,Mailing List Subscription,mailing.subscription
+1953,Mailing Statistics,mailing.trace
+1952,Mailing Subscription Reason,mailing.subscription.optout
+1837,Manage the file generation errors from report exports.,account.report.file.download.error.wizard
+1529,Manage the payment rejection from batch payments,account.batch.payment.rejection
+1463,Mandatory Day,hr.leave.mandatory.day
+1384,Manufacturing Report,mrp.report
+1967,Marketing Activity,marketing.activity
+1968,Marketing Campaign,marketing.campaign
+1971,Marketing Campaign: Launch a Test,marketing.campaign.test
+1969,Marketing Participant,marketing.participant
+1970,Marketing Trace,marketing.trace
+1958,Mass Mailing Statistics,mailing.trace.report
+13,Menu,ir.ui.menu
+1961,Merge Mass Mailing List,mailing.list.merge
+718,Merge Opportunities,crm.merge.opportunity
+102,Merge Partner Line,base.partner.merge.line
+103,Merge Partner Wizard,base.partner.merge.automatic.wizard
+1207,Merge Timesheets,hr_timesheet.merge.wizard
+143,Message,mail.message
+142,Message Notifications,mail.notification
+1243,Message Reaction,mail.message.reaction
+1646,Message Translation,mail.message.translation
+137,Message subtypes,mail.message.subtype
+1662,Metadata for voice attachments,discuss.voice.metadata
+1973,Microsoft Calendar Account Data,microsoft.calendar.credentials
+1974,Microsoft Calendar Account Reset,microsoft.calendar.account.reset
+1975,Microsoft Outlook Mixin,microsoft.outlook.mixin
+1864,Microsoft Service,microsoft.service
+327,Minimum Inventory Rule,stock.warehouse.orderpoint
+1642,Mixin to compute the time a record has spent in each value a many2one field can take,mail.tracking.duration.mixin
+8,Model Access,ir.model.access
+6,Model Constraint,ir.model.constraint
+9,Model Data,ir.model.data
+1600,Model Inheritance Tree,ir.model.inherit
+1755,Model Page,website.controller.page
+629,Model for Printing hr.payslip.line grouped by register,report.hr_payroll.contribution_register
+3,Models,ir.model
+301,Modify Asset,asset.modify
+62,Module,ir.module.module
+1569,Module Activation Request,base.module.install.request
+1570,Module Activation Review,base.module.install.review
+94,Module Reference Report (base),report.base.report_irmodulereference
+99,Module Uninstall,base.module.uninstall
+63,Module dependency,ir.module.module.dependency
+64,Module exclusion,ir.module.module.exclusion
+367,Multi Website Mixin,website.multi.mixin
+369,Multi Website Published Mixin,website.published.multi.mixin
+1551,Multicurrency Revaluation Report Custom Handler,account.multicurrency.revaluation.report.handler
+1149,Multicurrency Revaluation Wizard,account.multicurrency.revaluation.wizard
+1988,OAuth2 provider,auth.oauth.provider
+1771,Onboarding,onboarding.onboarding
+1773,Onboarding Progress Step Tracker,onboarding.progress.step
+1770,Onboarding Progress Tracker,onboarding.progress
+1772,Onboarding Step,onboarding.onboarding.step
+257,Opening Balance of Financial Year,account.financial.year.op
+710,Opp. Lost Reason,crm.lost.reason
+735,Option of a selection Field,sign.item.option
+147,Outgoing Mails,mail.mail
+199,Outgoing SMS,sms.sms
+323,Packages,stock.quant.package
+372,Page,website.page
+69,Paper Format Config,report.paperformat
+235,Partial Reconcile,account.partial.reconcile
+1990,Partner Activation,res.partner.activation
+1184,Partner Autocomplete Sync,res.partner.autocomplete.sync
+1991,Partner Grade,res.partner.grade
+1937,Partner IAP,res.partner.iap
+1556,Partner Ledger Custom Handler,account.partner.ledger.report.handler
+76,Partner Tags,res.partner.category
+1995,"Partner Tags - These tags can be used on website to find customers by sector, or ...",res.partner.tag
+77,Partner Title,res.partner.title
+1658,Partner Web Push Device,mail.partner.device
+989,Partner mapping for reconciliation models,account.reconcile.model.partner.mapping
+163,Partner with additional information for mail resend,mail.resend.partner
+846,Password Check Wizard,res.users.identitycheck
+1781,Payment Capture Wizard,payment.capture.wizard
+275,Payment Method,payment.method
+223,Payment Methods,account.payment.method
+1321,Payment Methods,account.payment.method.line
+274,Payment Provider,payment.provider
+1372,Payment Refund Wizard,payment.refund.wizard
+226,Payment Terms,account.payment.term
+227,Payment Terms Line,account.payment.term.line
+277,Payment Token,payment.token
+276,Payment Transaction,payment.transaction
+278,Payment provider onboarding wizard,payment.provider.onboarding.wizard
+634,Payroll Analysis Report,hr.payroll.report
+1768,Payroll Declaration Mixin,hr.payroll.declaration.mixin
+1767,Payroll Employee Declaration,hr.payroll.employee.declaration
+1766,Payroll Note,hr.payroll.note
+626,Payslip Input,hr.payslip.input
+627,Payslip Input Type,hr.payslip.input.type
+624,Payslip Line,hr.payslip.line
+625,Payslip Worked Days,hr.payslip.worked_days
+1197,People Role,crm.iap.lead.role
+1198,People Seniority,crm.iap.lead.seniority
+1335,Personal Task Stage,project.task.stage.personal
+320,Picking Type,stock.picking.type
+1512,Planning Analysis Report,planning.analysis.report
+754,Planning Recurrence,planning.recurrency
+756,Planning Role,planning.role
+755,Planning Shift,planning.slot
+194,Portal Mixin,portal.mixin
+195,Portal Sharing,portal.share
+197,Portal User Config,portal.wizard.user
+1860,Preview template,whatsapp.preview
+188,Pricelist Report,report.product.report_pricelist
+187,Pricelist Rule,product.pricelist.item
+1989,Print Pre-numbered Checks,print.prenumbered.checks
+1574,Privacy Log,privacy.log
+1575,Privacy Lookup Wizard,privacy.lookup.wizard
+1576,Privacy Lookup Wizard Line,privacy.lookup.wizard.line
+325,Procurement Group,procurement.group
+181,Product Attribute,product.attribute
+386,Product Attribute Custom Value,product.attribute.custom.value
+1678,Product Catalog Mixin,product.catalog.mixin
+177,Product Category,product.category
+1679,Product Document,product.document
+1878,Product Image,product.image
+1347,Product Label Report,report.stock.label_product_product_view
+1273,Product Label Report,report.product.report_producttemplatelabel_dymo
+1682,Product Label Report 2x7,report.product.report_producttemplatelabel2x7
+1684,Product Label Report 4x12,report.product.report_producttemplatelabel4x12
+1685,Product Label Report 4x12 No Price,report.product.report_producttemplatelabel4x12noprice
+1683,Product Label Report 4x7,report.product.report_producttemplatelabel4x7
+932,Product Line,approval.product.line
+403,Product Margin,product.margin
+318,Product Moves (Stock Move Line),stock.move.line
+1271,Product Packaging,product.packaging
+2052,Product Product Merge,product.product.merge.details
+345,Product Replenish,product.replenish
+1455,Product Tag,product.tag
+185,Product Template Attribute Exclusion,product.template.attribute.exclusion
+183,Product Template Attribute Line,product.template.attribute.line
+184,Product Template Attribute Value,product.template.attribute.value
+596,Product Template Cost Structure Report,report.mrp_account_enterprise.product_template_cost_structure
+2053,Product Template Merge,product.product.merge
+2050,Product Template Merge,product.template.merge.details
+2051,Product Template Merge,product.template.merge
+2054,Product Template Update,product.template.update
+127,Product Unit of Measure,uom.uom
+126,Product UoM Categories,uom.category
+1987,Product Wishlist,product.wishlist
+1880,Product ribbon,product.ribbon
+574,Production Document,mrp.document
+1225,Profiling results,ir.profile
+696,"Project Sales line, employee mapping",project.sale.line.employee.map
+1341,Project Sharing,project.share.wizard
+1334,Project Stage,project.project.stage
+1719,Project Stage Delete Wizard,project.project.stage.delete.wizard
+692,Project Tags,project.tags
+1050,Project Task Stage Delete Wizard,project.task.type.delete.wizard
+440,Public Employee,hr.employee.public
+158,Publisher Warranty Contract,publisher_warranty.contract
+2076,Purchase Order Generation,purchase.order.advance.gen
+383,Purchase Order Line,purchase.order.line
+384,Purchase Report,purchase.report
+435,Purchase Requisition Line,purchase.requisition.line
+433,Purchase Requisition Type,purchase.requisition.type
+385,Purchases & Bills Union,purchase.bill.union
+1923,Push Subscription for a Website Visitor,website.visitor.push.subscription
+312,Putaway Rule,stock.putaway.rule
+1403,QWeb Field Time,ir.qweb.field.time
+2003,Quality Alert Stage,quality.alert.stage
+1998,Quality Control Test Type,quality.point.test_type
+2002,Quality Tag,quality.tag
+2009,Quality Worksheet Internal Report,report.quality_control.quality_worksheet_internal
+2008,Quality Worksheet Report,report.quality_control.quality_worksheet
+322,Quants,stock.quant
+395,Quotation Template,sale.order.template
+396,Quotation Template Line,sale.order.template.line
+397,Quotation Template Option,sale.order.template.option
+39,Qweb,ir.qweb
+40,Qweb Field,ir.qweb.field
+55,Qweb Field Barcode,ir.qweb.field.barcode
+56,Qweb Field Contact,ir.qweb.field.contact
+43,Qweb Field Date,ir.qweb.field.date
+44,Qweb Field Datetime,ir.qweb.field.datetime
+53,Qweb Field Duration,ir.qweb.field.duration
+42,Qweb Field Float,ir.qweb.field.float
+52,Qweb Field Float Time,ir.qweb.field.float_time
+49,Qweb Field HTML,ir.qweb.field.html
+50,Qweb Field Image,ir.qweb.field.image
+821,Qweb Field Image,ir.qweb.field.image_url
+41,Qweb Field Integer,ir.qweb.field.integer
+47,Qweb Field Many to One,ir.qweb.field.many2one
+51,Qweb Field Monetary,ir.qweb.field.monetary
+54,Qweb Field Relative,ir.qweb.field.relative
+46,Qweb Field Selection,ir.qweb.field.selection
+45,Qweb Field Text,ir.qweb.field.text
+57,Qweb Field qweb,ir.qweb.field.qweb
+48,Qweb field many2many,ir.qweb.field.many2many
+563,Rank based on karma,gamification.karma.rank
+686,Rating,rating.rating
+687,Rating Parent Mixin,rating.parent.mixin
+1904,Recruitment Analysis Report,hr.recruitment.report
+1905,Recruitment Stage Analysis,hr.recruitment.stage.report
+1898,Recruitment Stages,hr.recruitment.stage
+1884,Recycling Model,data_recycle.model
+1885,Recycling Record,data_recycle.record
+1895,Refuse Reason of Applicant,hr.applicant.refuse.reason
+1188,Regenerate Employee Work Entries,hr.work.entry.regeneration.wizard
+225,Register Payment,account.payment.register
+1947,Register Sample Payments,expense.sample.register
+7,Relation Model,ir.model.relation
+1006,Remake the sequence of Journal Entries.,account.resequence.wizard
+311,Removal Strategy,product.removal
+884,Remove email from blacklist wizard,mail.blacklist.remove
+911,Remove phone from blacklist,phone.blacklist.remove
+26,Report Action,ir.actions.report
+68,Report Layout,report.layout
+203,Resend Notification,sms.resend.recipient
+16,Reset View Architecture Wizard,reset.view.arch.wizard
+130,Resource Mixin,resource.mixin
+134,Resource Time Off Detail,resource.calendar.leaves
+131,Resource Working Time,resource.calendar
+133,Resources,resource.resource
+335,Return Picking,stock.return.picking
+334,Return Picking Line,stock.return.picking.line
+1921,Revoke YouTube Account,social.account.revoke.youtube
+1088,Robots.txt Editor,website.robots
+2001,Root Cause for Quality Failure,quality.reason
+34,Rule,ir.rule
+990,Rules for the reconciliation model,account.reconcile.model.line
+337,Run Scheduler Manually,stock.scheduler.compute
+366,SEO metadata,website.seo.metadata
+1539,SG BIS Billing 3.0,account.edi.xml.ubl_sg
+1536,SI-UBL 2.0 (NLCIUS),account.edi.xml.ubl_nl
+772,SLA Status Analysis,helpdesk.sla.report.analysis
+204,SMS Resend,sms.resend
+205,SMS Template Preview,sms.template.preview
+1468,SMS Template Reset,sms.template.reset
+200,SMS Templates,sms.template
+1387,Salary Attachment / Report,hr.salary.attachment.report
+1765,Salary Attachment Type,hr.salary.attachment.type
+2045,Salary Certificate By Employee,l10n.ch.salary.certificate
+622,Salary Rule,hr.salary.rule
+621,Salary Rule Category,hr.salary.rule.category
+631,Salary Rule Parameter,hr.rule.parameter
+630,Salary Rule Parameter Value,hr.rule.parameter.value
+619,Salary Structure,hr.payroll.structure
+620,Salary Structure Type,hr.payroll.structure.type
+394,Sale Options,sale.order.option
+392,Sale Payment provider onboarding wizard,sale.payment.provider.onboarding.wizard
+2075,Sale order profitability,so.profitability
+393,Sales Advance Payment Invoice,sale.advance.payment.inv
+389,Sales Analysis Report,sale.report
+1159,Sales Order Cancel,sale.order.cancel
+388,Sales Order Line,sale.order.line
+1962,Sample Mail Wizard,mailing.mailing.test
+1661,Save favorite GIF from Tenor API,discuss.gif.favorite
+757,Schedule,planning.planning
+28,Scheduled Actions,ir.cron
+1427,Scheduled Messages,mail.message.schedule
+759,Send Planning,planning.send
+202,Send SMS Wizard,sms.composer
+1859,Send WhatsApp Wizard,whatsapp.composer
+1902,Send mails to applicants,applicant.send.mail
+11,Sequence,ir.sequence
+12,Sequence Date Range,ir.sequence.date_range
+22,Server Action,ir.actions.server
+1877,Set Homework Location Wizard,homework.location.wizard
+2063,Share Holders,share.holders
+758,Shift Template,planning.slot.template
+451,Shipping Methods,delivery.carrier
+849,Show API Key,res.users.apikeys.show
+1294,Sign Duplicate Template with new PDF,sign.duplicate.template.pdf
+734,Sign Template Tag,sign.template.tag
+744,Sign document in contract,hr.contract.sign.document.wizard
+1906,Sign document in recruitment,hr.recruitment.sign.document.wizard
+739,Sign requests access history,sign.log
+740,Sign send request,sign.send.request
+741,Sign send request signer,sign.send.request.signer
+738,Signature Item Party,sign.item.role
+737,Signature Item Type,sign.item.type
+732,Signature Item Value,sign.request.item.value
+731,Signature Request Item,sign.request.item
+733,Signature Template,sign.template
+190,Snailmail Letter,snailmail.letter
+1073,Snooze Orderpoint,stock.orderpoint.snooze
+1911,Social Account,social.account
+1914,Social Live Post,social.live.post
+1912,Social Post Template,social.post.template
+1915,Social Stream,social.stream
+1916,Social Stream Post,social.stream.type
+1917,Social Stream Post,social.stream.post
+1918,Social Stream Post Image Attachment,social.stream.post.image
+1920,Social Twitter Account,social.twitter.account
+1897,Source of Applicants,hr.recruitment.source
+1591,Split Production Detail,mrp.production.split.line
+1186,Spreadsheet Contributor,spreadsheet.contributor
+1578,Spreadsheet Dashboard,spreadsheet.dashboard
+1187,Spreadsheet Template,spreadsheet.template
+1185,Spreadsheet Template Save Wizard,save.spreadsheet.template
+1710,Spreadsheet mixin,spreadsheet.mixin
+333,Stock Assign Serial Numbers,stock.assign.serial
+405,Stock Landed Cost Line,stock.landed.cost.lines
+317,Stock Move,stock.move
+348,Stock Package Destination,stock.package.destination
+329,Stock Package Level,stock.package_level
+341,Stock Quantity History,stock.quantity.history
+1729,Stock Quantity Relocation,stock.quant.relocate
+330,Stock Quantity Report,report.stock.quantity
+1346,Stock Reception Report,report.stock.report_reception
+1068,Stock Replenishment Report,stock.forecasted_product_template
+1067,Stock Replenishment Report,stock.forecasted_product_product
+350,Stock Report,stock.report
+1352,Stock Request an Inventory Count,stock.request.count
+324,Stock Rule,stock.rule
+342,Stock Rules report,stock.rules.report
+346,Stock Track Confirmation,stock.track.confirmation
+347,Stock Track Line,stock.track.line
+352,Stock Valuation Layer,stock.valuation.layer
+179,Stock package type,stock.package.type
+331,Stock rule report,report.stock.report_stock_rule
+1353,Stock supplier replenishment information,stock.replenishment.info
+1586,Stock warehouse replenishment option,stock.replenishment.option
+1344,Storage Category,stock.storage.category
+1345,Storage Category Capacity,stock.storage.category.capacity
+1426,Store link preview data,mail.link.preview
+977,Studio Approval Entry,studio.approval.entry
+1494,Studio Approval Request,studio.approval.request
+976,Studio Approval Rule,studio.approval.rule
+365,Studio Mixin,studio.mixin
+180,Supplier Pricelist,product.supplierinfo
+571,Survey Invitation Wizard,survey.invite
+568,Survey Label,survey.question.answer
+567,Survey Question,survey.question
+570,Survey User Input Line,survey.user_input.line
+2017,Swiss Payroll: Individual Account,l10n.ch.individual.account
+2016,Swiss Payroll: Monthly Summary,l10n.ch.monthly.summary
+2033,Swiss Payroll: Tax rate import wizard,l10n.ch.tax.rate.import.wizard
+1151,Swiss QR-bill report,report.l10n_ch.qr_report_main
+2039,Swiss: AC: Rate Threshold,l10n.ch.social.insurance.avs.ac.threshold
+2040,Swiss: ACC: Rate Threshold,l10n.ch.social.insurance.avs.acc.threshold
+2027,Swiss: Accident Additional Insurances Line Rate (LAAC),l10n.ch.additional.accident.insurance.line.rate
+2022,Swiss: Accident Insurances (AAP/AANP),l10n.ch.accident.insurance
+2023,Swiss: Accident Insurances Line (AAP/AANP),l10n.ch.accident.insurance.line
+2024,Swiss: Accident Insurances Line Rate (AAP/AANP),l10n.ch.accident.insurance.line.rate
+2025,Swiss: Additional Accident Insurances (LAAC),l10n.ch.additional.accident.insurance
+2026,Swiss: Additional Accident Insurances Line (LAAC),l10n.ch.additional.accident.insurance.line
+2031,Swiss: Family Allowance (CAF),l10n.ch.compensation.fund
+2032,Swiss: Family Allowance Rate (CAF),l10n.ch.compensation.fund.line
+2021,Swiss: LPP Insurances,l10n.ch.lpp.insurance
+2038,Swiss: Retired Employees Exoneration,l10n.ch.social.insurance.avs.retirement.rente
+2028,Swiss: Sickness Insurances (IJM),l10n.ch.sickness.insurance
+2029,Swiss: Sickness Insurances Line (IJM),l10n.ch.sickness.insurance.line
+2030,Swiss: Sickness Insurances Line Rate (IJM),l10n.ch.sickness.insurance.line.rate
+2018,"Swiss: Social Insurances (AVS, AC)",l10n.ch.social.insurance
+2020,Swiss: Social Insurances - AC Line,l10n.ch.social.insurance.ac.line
+2019,Swiss: Social Insurances - AVS Line,l10n.ch.social.insurance.avs.line
+1972,Synchronize a record with Microsoft Calendar,microsoft.calendar.sync
+35,System Parameter,ir.config_parameter
+725,Tag,documents.tag
+1043,Task Recurrence,project.task.recurrence
+689,Task Stage,project.task.type
+693,Tasks Analysis,report.project.task.user
+219,Tax Group,account.tax.group
+209,Tax Mapping of Fiscal Position,account.fiscal.position.tax
+221,Tax Repartition Line,account.tax.repartition.line
+1378,Tax Unit,account.tax.unit
+2043,Tax at Source Monthly Report,l10n.ch.is.report
+2044,Tax at Source Monthly Report Line,l10n.ch.is.report.line
+1147,Technical model for accounting report downloads,ir_actions_account_report_download
+1560,Technical model to group PO for call to tenders,purchase.order.group
+1423,Template Reset Mixin,template.reset.mixin
+1966,Test SMS Mailing,mailing.sms.test
+1358,Theme Asset,theme.ir.asset
+378,Theme Attachments,theme.ir.attachment
+377,Theme UI View,theme.ir.ui.view
+381,Theme Utils,theme.utils
+1331,Ticket Analysis,helpdesk.ticket.report.analysis
+767,Ticket SLA Status,helpdesk.sla.status
+618,Time Off Calendar,hr.leave.report.calendar
+1286,Time Off Summary / Report,hr.leave.employee.type.report
+612,Time Off Summary / Report,hr.leave.report
+610,Time Off Type,hr.leave.type
+1183,Timer Mixin,timer.mixin
+1182,Timer Module,timer.timer
+761,Timesheet & Planning Statistics,project.timesheet.forecast.report.analysis
+763,Timesheet Attendance Report,hr.timesheet.attendance.report
+1563,Timesheet Grid mixin,timesheet.grid.mixin
+1522,Timesheets Analysis Report,timesheets.analysis.report
+1852,Timesheets Leaderboard Tip,hr.timesheet.tip
+125,Tours,web_tour.tour
+332,Traceability Report,stock.traceability.report
+904,Track Karma Changes,gamification.karma.tracking
+1816,Transient model for bank statement line,account.bank.statement.line.transient
+1552,Trial Balance Custom Handler,account.trial.balance.report.handler
+1566,Trial Balance Custom Handler,consolidation.trial.balance.report.handler
+1218,Triggered actions,ir.cron.trigger
+1946,Try Sample Receipts,expense.sample.receipt
+1532,UBL 2.0,account.edi.xml.ubl_20
+1533,UBL 2.1,account.edi.xml.ubl_21
+1534,UBL BIS Billing 3.0.12,account.edi.xml.ubl_bis3
+356,UTM Campaign,utm.campaign
+355,UTM Medium,utm.medium
+360,UTM Mixin,utm.mixin
+357,UTM Source,utm.source
+1418,UTM Source Mixin,utm.source.mixin
+359,UTM Tag,utm.tag
+1883,Unit of Measure for price per unit on eCommerce products.,website.base.unit
+2,Unknown,_unknown
+95,Update Module,base.module.update
+193,Update address of partner,snailmail.letter.missing.required.fields
+1329,Update the probabilities,crm.lead.pls.update
+98,Upgrade Module,base.module.upgrade
+90,User,res.users
+129,User Presence,bus.presence
+1249,User Settings,res.users.settings
+1250,User Settings Volumes,res.users.settings.volumes
+92,"User, Change Password Wizard",change.password.user
+1410,"User, change own password wizard",change.password.own
+847,Users API Keys,res.users.apikeys
+1414,Users Deletion Request,res.users.deletion
+89,Users Log,res.users.log
+251,Validate Account Move,validate.account.move
+2055,Validation Error Records,validation.error.records
+406,Valuation Adjustment Lines,stock.valuation.adjustment.lines
+1154,Vendor Delay Report,vendor.delay.report
+15,View,ir.ui.view
+375,Visited Pages,website.track
+326,Warehouse,stock.warehouse
+343,Warn Insufficient Quantity,stock.warn.insufficient.qty
+344,Warn Insufficient Scrap Quantity,stock.warn.insufficient.qty.scrap
+593,Warn Insufficient Unbuild Quantity,stock.warn.insufficient.qty.unbuild
+1375,Wave Transfer Lines,stock.add.to.wave
+124,Web Editor Converter Subtest,web_editor.converter.test.sub
+123,Web Editor Converter Test,web_editor.converter.test
+370,Website,website
+1359,Website Configurator Feature,website.configurator.feature
+371,Website Menu,website.menu
+1879,Website Product Category,product.public.category
+368,Website Published Mixin,website.published.mixin
+1356,Website Searchable Mixin,website.searchable.mixin
+1087,Website Snippet Filter,website.snippet.filter
+379,Website Theme Menu,theme.website.menu
+380,Website Theme Page,theme.website.page
+376,Website Visitor,website.visitor
+374,Website rewrite,website.rewrite
+1855,WhatsApp Messages,whatsapp.message
+1857,WhatsApp Template Button,whatsapp.template.button
+1858,WhatsApp Template Variable,whatsapp.template.variable
+2007,Wizard for Quality Check Pop Up,quality.check.wizard
+1815,Wizard for missing transactions,account.missing.transaction.wizard
+1567,Wizard for sending manual reminders to clients,account_followup.manual_reminder
+1561,Wizard in case PO still has open alternative requests for quotation,purchase.requisition.alternative.warning
+1107,Wizard in case of consumption in warning/strict and more component has been used for a MO (related to the bom),mrp.consumption.warning
+1124,Wizard model to reavaluate a stock inventory for a product,stock.valuation.layer.revaluation
+1589,Wizard to Split Multiple Productions,mrp.production.split.multi
+1590,Wizard to Split a Production,mrp.production.split
+1106,Wizard to mark as done or create back order,mrp.production.backorder
+1562,Wizard to preset values for alternative PO,purchase.requisition.create.alternative
+582,Work Center,mrp.workcenter
+1588,Work Center Capacity,mrp.workcenter.capacity
+581,Work Center Usage,mrp.routing.workcenter
+132,Work Detail,resource.calendar.attendance
+1386,Work Entries Analysis Report,hr.work.entry.report
+616,Work Entries Employees,hr.user.work.entry.employee
+1268,Work Location,hr.work.location
+588,Work Order,mrp.workorder
+2014,Work Place - Swiss Payroll,l10n.ch.location.unit
+585,Workcenter Productivity Log,mrp.workcenter.productivity
+584,Workcenter Productivity Losses,mrp.workcenter.productivity.loss
+2006,Worksheet Template,worksheet.template
+600,Zoho Deals,x_zoho_deals
+2012,data,x_data
+1192,representation of an online bank account,account.online.account
+1963,schedule a mailing,mailing.mailing.schedule.date
+1417,websocket message handling,ir.websocket
